@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker rank dashboard</title>
+    <link rel="icon" href="image.png">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="other-pages-buttons-div">
+        <button class="page-left"><a href="page02.html">page02</a></button>
+        <button class="page-right"><a href="page03.html">page03</a></button>
+    </div>
+    <nav>
+        <div>
+            <ul>
+                <li class="logo-item"><img src="image.png" alt="logo"></li>
+                <li class="logo-item logo-name">HackerRank</li>
+                <li class="logo-item">|</li>
+                <li class="selected-li">Prepare</li>
+                <li>Certify</li>
+                <li>Compete</li>
+                <li>Apply</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="logo-item"><input type="search" name="search-bar" id="search-bar" placeholder="Search"></li>
+                <li class="logo-item"><a href="#">Hiring developers?</a></li>
+                <li class="logo-item login-button-li"><button class="login-button">Log in</button></li>
+                <li class="logo-item signup-button-li"><button class="signup-button">Sign Up</button></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="current-selected-info">
+        <p class="prepare">Prepare</p>
+        <p class="dashboard">Dashboard</p>
+    </section>
+    <hr>
+    <section class="current-selected-details">
+        <p>Your Preparation</p>
+        <div>
+            <div>
+                <p class="overview-title">PREPARATION KITS</p>
+                <p class="course-title">Interview Preparation Kit</p>
+                <p class="course-description">Get interview ready for top companies by solving an interview preparation
+                    kit.</p>
+                <button>View all kits</button>
+            </div>
+            <div>
+                <p class="overview-title">NEW SKILL</p>
+                <p class="course-title">Add your first skill</p>
+                <p class="course-description">Explore and add your first skill to get started. HackerRank offers a
+                    variety of skills, tracks and tutorials for you to learn and improve.
+                </p>
+                <button id="explore-skills-button">Explore Skills</button>
+            </div>
+        </div>
+    </section>
+    <section class="certification current-selected-details">
+        <p>Certification</p>
+        <div>
+            <div class="certification-first-div">
+                <img src="problem-solving-ecaf59a612.svg" alt="">
+                <p>Problem Solving (Basic) <span>ⓘ</span></p>
+                <button>Get Certified</button>
+            </div>
+            <div class="certification-second-div">
+                <img src="python-127-svgrepo-com.svg" alt="">
+                <p>Python (Basic) <span>ⓘ</span></p>
+                <button>Get Certified</button>
+            </div>
+            <div class="certification-third-div">
+                <p class="heading">Stand out from the crowd</p>
+                <p class="description">Take the HackerRank Certification Test and make your profile stand out</p>
+                <button id="view-all-certifcations-button">View all certifications</button>
+            </div>
+        </div>
+    </section>
+    <section class="current-selected-details prepare-by-topic">
+        <p>Prepare By Topics</p>
+        <div>
+            <div><img src="Algorithm.svg" alt="python"><span>Algorithms</span></div>
+            <div><img src="DataStructure.svg" alt="python"><span>Data Structures</span></div>
+            <div><img src="Mathematics.svg" alt="python"><span>Mathematics</span></div>
+            <div><img src="AI.svg" alt="python"><span>Artificial Intelligence</span>
+            </div>
+            <div><img src="C.svg" alt="python"><span>C</span></div>
+            <div><img src="C++.svg" alt="python"><span>C++</span></div>
+            <div><img src="Java.svg" alt="python"><span>Java</span></div>
+            <div><img src="Python (1).svg" alt="python"><span>Python</span></div>
+            <div><img src="Ruby.svg" alt="python"><span>Ruby</span></div>
+            <div><img src="SQL.svg" alt="python"><span>SQL</span></div>
+            <div><img src="DataBase.svg" alt="python"><span>Databases</span></div>
+            <div><img src="LinuxShell.svg" alt="python"><span>Linux Shell</span></div>
+            <div><img src="FunctionalProgramming.svg" alt="python"><span>Functional Programming</span>
+            </div>
+            <div><img src="regex.svg" alt="python"><span>Regex</span></div>
+        </div>
+    </section>
+    <section class="preparation-kits current-selected-details current-selected-details certification">
+        <p>Preparation Kits<span><a href="#">View all kits</a></span></p>
+        <div>
+            <div>
+                <img src="calender-svgrepo-com.svg" alt="python">
+                <p class="course-title">1 Week Preparation Kit</p>
+                <p class="course-description">Challenges: <span>21</span>, Attempts: <span>824626</span>, Mock Tests:
+                    <span>0</span>
+                </p>
+                <div>
+                    <button>Problem Solving(Basics)</button>
+                    <button>Problem Solving(Intermediate)</button>
+                    <button id="button-oneplus">+1</button>
+                </div>
+            </div>
+            <div>
+                <img src="calender-svgrepo-com.svg" alt="python">
+                <p class="course-title">1 Month Preparation Kit</p>
+                <p class="course-description">Challenges: <span>54</span>, Attempts: <span>345526</span>, Mock Tests:
+                    <span>0</span>
+                </p>
+                <div>
+                    <button>Problem Solving(Basics)</button>
+                    <button>Problem Solving(Intermediate)</button>
+                    <button id="button-oneplus">+1</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#">Blog</a>
+        <p>|</p>
+        <a href="#">Scoring</a>
+        <p>|</p>
+        <a href="#">Environment</a>
+        <p>|</p>
+        <a href="#">FAQ</a>
+        <p>|</p>
+        <a href="#">About us</a>
+        <p>|</p>
+        <a href="#">Support</a>
+        <p>|</p>
+        <a href="#">Careers</a>
+        <p>|</p>
+        <a href="#">Terms Of Service</a>
+        <p>|</p>
+        <a href="#">Privacy Policy</a>
+        <p>|</p>
+    </footer>
+</body>
+
+</html>

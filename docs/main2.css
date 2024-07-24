@@ -1,0 +1,184 @@
+.advertisement-section {
+    color: white;
+    margin: 0;
+    padding: 2.3rem 10%;
+    background-image: linear-gradient(140deg, #193b84 15%, #037bc1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8%;
+}
+
+.advertisement-section .title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.advertisement-section .description {
+    font-size: 0.8rem;
+}
+
+.certification > div {
+    margin: 1.6rem 0;
+}
+
+.certification > div > div {
+    padding: 2.2rem;
+}
+
+.skills-certified-div > div{
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.heading-div {
+    text-align: center;
+}
+
+.heading-div>p {
+    margin-bottom: 0.1rem;
+}
+
+.heading-title {
+    display: inline-block;
+    font-size: 2.6rem;
+    font-weight: 1000;
+    color: rgb(51, 67, 57);
+}
+
+.heading-div div {
+    display: inline-block;
+    background-color: rgb(75, 188, 75);
+    height: 1.8rem;
+    width: 1.4rem;
+}
+
+.heading-description-one {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(51, 67, 57);
+}
+
+.heading-description-two {
+    margin-top: 0;
+}
+
+.registration-div {
+    width: 33%;
+    margin: auto;
+}
+
+.registration-headings-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bold;
+}
+
+form {
+    padding: 1rem;
+    gap: ;
+}
+
+.input-div {
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 0.3rem;
+}
+
+input {
+    width: 100%;
+    border: none;
+}
+
+.input-div img {
+    display: block;
+}
+
+.input-div > input {
+    font-size: large;
+    padding-left: 0.5rem;
+}
+
+.t-c-div {
+    display: flex;
+    height: 1.5rem;
+    border: none;
+}
+ */

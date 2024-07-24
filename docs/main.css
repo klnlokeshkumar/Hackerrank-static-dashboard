@@ -1,0 +1,672 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.other-pages-buttons-div {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-pages-buttons-div > button {
+    background-color: rgb(37, 28, 88);
+    transform: rotate(90deg);
+    box-shadow: 0 0 0.5rem rgb(54, 54, 54);
+}
+
+.other-pages-buttons-div > button.page-left {
+    transform: rotate(-90deg);
+}
+
+.other-pages-buttons-div > button > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(16, 18, 35);
+    color: white;
+    padding: 0 2.5rem;
+}
+
+nav > div {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+li img {
+    display: flex;
+    width: 2.5rem;
+}
+
+li {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 1.3rem 1.5rem ;
+    opacity: 80%;
+    transition: all;
+}
+
+li:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.logo-item {
+    margin: 0.5rem ;
+    opacity: 90%;;
+}
+
+.logo-name {
+    opacity: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.selected-li {
+    opacity: 100%;
+}
+
+#search-bar {
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+    background-color: rgba(122, 142, 130, 0.438);
+    border: 2px solid grey;
+    border-radius: 0.3rem;
+}
+
+li > a {
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    opacity: 100%;
+}
+
+.login-button {
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+}
+
+.signup-button {
+    background-color: rgb(65, 130, 0);
+    cursor: pointer;
+}
+
+.login-button-li, .signup-button-li {
+    opacity: 100%;
+}
+
+section {
+    margin: 1rem 10rem;
+}
+
+.current-selected-info p{
+    padding: 0;
+    margin: 0 0 0.4rem 0;
+}
+
+.prepare {
+    color: rgb(177, 177, 177);
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.prepare > span{
+    font-size: 0.75rem;
+}
+
+.dashboard {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+hr {
+    opacity: 25%;
+}
+
+.current-selected-details > p{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+
+.current-selected-details > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.current-selected-details > div > div{
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    gap: 1rem;
+}
+
+.current-selected-details > div > div > p {
+    margin: 0;
+}
+
+.overview-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.281);
+}
+
+.course-title {
+    font-size: 1.7rem;
+    opacity: 80%;
+    font-weight: bold;
+}
+
+.course-description {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-wrap: wrap ;
+    color: rgba(0, 0, 0, 0.467);
+}
+
+.current-selected-details > div > div > button {
+    width: fit-content;
+    font-size: 1.1rem;
+    padding: 0.8rem 1rem;
+    background-color: rgb(65, 130, 0);
+}
+
+#explore-skills-button {
+    background-color: rgba(0, 0, 0, 0.055);
+    color: black;
+    transition: all 25ms;
+}
+
+#explore-skills-button:hover {
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.certification > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.certification > div > div {
+    position: relative;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.certification img {
+    position: absolute;
+    min-width: 40%;
+    max-width: 40%;
+    right: -10%;
+    z-index: -1;
+    /* overflow: hidden; */
+    opacity: 10%;
+}
+
+.certification > div > div >  p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+span {
+    font-size: 1rem;
+    opacity: 60%;
+}
+
+.certification > div > div > button {
+    font-size: small;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.047);
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.certification-third-div {
+    color: white;
+    background-color: rgb(0, 2, 26);
+}
+
+.certification-third-div > .heading {
+    font-size: 1.2rem;
+}
+
+.certification-third-div > .description {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+#view-all-certifcations-button {
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    padding: 0.6rem;
+}
+
+.prepare-by-topic > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    border: 1px solid rgba(0, 0, 0, 0.115);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.prepare-by-topic > div > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: left;
+    padding: 1rem;
+    border-radius: 0;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.032);
+}
+
+.prepare-by-topic > div > div:hover {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.prepare-by-topic span {
+    font-size: large;
+    opacity: 75%;
+}
+
+.preparation-kits a {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.preparation-kits > div {
+    grid-template-columns: 1fr 1fr;
+}
+
+.preparation-kits > div > div > img {
+    max-width: 25%;
+    min-width: 25%;
+    top: 45%;
+}
+
+.preparation-kits > div > div> .course-title {
+    font-size: 1.2rem;
+    opacity: 80%;
+}
+
+.preparation-kits > div > div> .course-description {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.preparation-kits > div > div > p > span {
+    font-size: 0.9rem;
+    color: black;
+    opacity: 100%;
+}
+
+.preparation-kits > div > div > div > button {
+    background-color: rgb(231, 238, 232);
+    color: rgb(82, 82, 82);
+    padding: 0.7rem 0.9rem;
+    margin-right: 0.5rem;
+}
+
+#button-oneplus {
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 0;
+}
+
+footer {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+footer > a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(0, 138, 218);
+}
+
+footer > p {
+    margin: 0;
+    font-size: 1.2rem;
+    opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 0;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: grid;
+    background-color: rgb(16, 18, 35);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.Prepare:hover {
+    opacity: 1;
+}
+
+.menu-li, .Prepare {
+    opacity: 0.8;
+    transition: all;
+}
+
+.Prepare {
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font: 300 0.9rem 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+li {
+    margin: 0.2rem 1.5rem;
+}
+
+.logo-pic-li,
+.search-bar-li,
+.profile-pic-li {
+    padding: 0;
+}
+
+.left-nav,
+.right-nav {
+    padding: 0 1rem;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.right-nav li {
+    margin: 0.2rem 1.1rem;
+}
+
+.logo-name {
+    font: bold medium "Open Sans", sans-serif;
+    margin: 0;
+}
+
+li img {
+    height: 3rem;
+}
+
+.profile-pic {
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.svg-image {
+    height: 1.1rem;
+    filter: invert(80%);
+}
+
+#search-bar {
+    background-color: rgb(63, 63, 72);
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    width: 15rem;
+}
+
+section {
+    margin: 1.3rem 10.3rem;
+}
+
+.info-section > p {
+    color: rgb(202, 202, 202);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.info-section > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.info-section > div > p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+}
+
+.info-section a {
+    color: rgb(28, 133, 199);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+hr {
+    opacity: 0.15;
+}
+
+.heading-section > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 2rem 0 0 0;
+}
+
+.course-div {
+    border: 1px solid rgba(169, 169, 169, 0.2);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.course-img-div {
+    height: 7em;
+    width: 7em;
+    position: absolute;
+    right: -2em;
+    top: -2em;
+    background-image: url(/docs/images/hexagon-fill.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+}
+
+.course-img-div > img {
+    max-width: 25%;
+    min-width: 25%;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 30%;
+    margin: auto; 
+}
+
+.course-img-div > div {
+    margin-top: 55%;
+}
+
+.course-img-div > div > p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.course-div > p {
+    margin: 0;
+    margin-bottom: 0.9rem;
+}
+
+.course-info, .progress-bar-info  {
+    font-size: 0.8rem;
+    color: rgb(161, 161, 161);
+    font-weight: 400;
+}
+
+.course-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.progress-bar-div {
+    background-color: rgba(128, 128, 128, 0.523);
+    height: 0.35rem;
+    margin-bottom: 0.9rem;
+}
+
+.progress-bar-div > div {
+    background-color: black;
+    height: 0.35rem;
+    width: 67%;
+    opacity: 1;
+}
+
+.progress-bar-info > span {
+    color: black;
+    font-weight: bold;
+}
+
+.course-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem 1rem;
+    margin-top: 0.8rem;
+}
+.prepare-by-topic > table{
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    border-radius: 0.5rem;
+    border-collapse: collapse;
+}
+
+td {
+    column-span: 1;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+    align-items: center;
+    padding: 1rem;
+}
+
+table img {
+    max-width: 6%;
+    min-width: 6%;
+    padding: 0 1rem;
+    opacity: 60%;
+}
+
+table span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 70%;
+} */
